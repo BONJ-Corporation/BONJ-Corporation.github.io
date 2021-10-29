@@ -11,7 +11,7 @@
  - The model was developed by feeding a customised training dataset of more than 1000 elephants in South Africa into a [Convolutional Neural Network(CNN)](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53v).
  - The results (known as the [F2 score](https://machinelearningmastery.com/fbeta-measure-for-machine-learning/)) of the CNN models was 0.78 in heterogeneous areas and 0.73 in homogenous areas, compared with, an averaged human detection capability F2 score of 0.77 in heterogeneous areas and 0.80 in homogenous areas.
 
-![image.png](https://boostnote.io/api/teams/-Qo2Hchym/files/9f7b3c615589260831e236d64253f5dfcb4e42d4302473fb135a0868a9df12ee-image.png)
+![image.png](https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/f3e76ff4-b3ce-47a3-bab0-7baf34154a0a/Rendition/low-res/Content/Public)
 - Similar projects have been undergone before. For example NASA used satellite technology to find a [secret penguin colony](https://www.cnet.com/news/nasa-satellite-reveals-penguin-supercolony-antarctica-adelie/). However this has never been done in a heterogeneous landscape like the African savanna.
  - There are an estimated 415,000 African elephants left in the wild and they are listed as "vulnerable" on the [IUCN Red List of Threatened Species](https://www.iucnredlist.org/species/12392/3339343).
  - This means its vital to keep track of their numbers and locations.
