@@ -1,0 +1,52 @@
+#title{
+    text-align: center;
+    background-color:rgb(14, 17, 199);
+    font-size: 50px;
+    color: white;
+}
+
+#link{
+    text-align: center;
+    background-color:rgba(0, 217, 255, 0.637);
+    font-size: 30px;
+    color: rgb(14, 17, 199);
+}
+
+#banner{
+    color: rgb(14, 17, 199);
+    font-size: 50px;
+    background-color: rgba(0, 217, 255, 0.637);
+}
+
+#subtext{
+    text-align: center;
+    background-color:rgb(14, 17, 199);
+    font-size: 15px;
+    color: white
+}
+*{
+    font-family: "Times New Roman", cursive, sans-serif;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
