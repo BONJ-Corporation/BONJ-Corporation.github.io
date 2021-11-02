@@ -1,13 +1,13 @@
 #title{
     text-align: center;
     background-color:rgb(14, 17, 199);
-    font-size: 50px;
-    color: white;
+    font-size: 30px;
+    color: rgb(80, 201, 231);
 }
 
 #link{
     text-align: center;
-    background-color:rgba(0, 217, 255, 0.637);
+    background-color:rgb(80, 201, 231);
     font-size: 30px;
     color: rgb(14, 17, 199);
 }
@@ -15,21 +15,21 @@
 #banner{
     color: rgb(14, 17, 199);
     font-size: 50px;
-    background-color: rgba(0, 217, 255, 0.637);
+    background-color: rgb(80, 201, 231);
 }
 
 #subtext{
     text-align: center;
     background-color:rgb(14, 17, 199);
     font-size: 15px;
-    color: white
+    color: rgb(80, 201, 231)s
 }
 *{
     font-family: "Times New Roman", cursive, sans-serif;
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: rgb(80, 201, 231);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -41,7 +41,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: rgb(80, 201, 231)5;
 }
 
 .content {
