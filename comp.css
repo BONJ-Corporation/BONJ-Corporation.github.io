@@ -50,3 +50,10 @@
   overflow: hidden;
   background-color: #8ea7a8;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
