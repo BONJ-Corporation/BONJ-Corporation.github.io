@@ -1,28 +1,28 @@
 #title{
     text-align: center;
-    background-color:rgb(14, 17, 199);
+    background-color:rgb(80, 201, 231);
     font-size: 30px;
-    color: rgb(80, 201, 231);
+    color: white;
 }
 
 #link{
     text-align: center;
-    background-color:rgb(80, 201, 231);
+    background-color:#8ea7a8;
     font-size: 30px;
     color: rgb(14, 17, 199);
 }
 
 #banner{
-    color: rgb(14, 17, 199);
-    font-size: 50px;
+    color: white;
+    font-size: 30px;
     background-color: rgb(80, 201, 231);
 }
 
 #subtext{
     text-align: center;
-    background-color:rgb(14, 17, 199);
-    font-size: 15px;
-    color: rgb(80, 201, 231);
+    background-color:#8ea7a8;
+    font-size: 10px;
+    color: white;
 }
 *{
     font-family: "Times New Roman", cursive, sans-serif;
@@ -48,5 +48,5 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #8ea7a8;
 }
