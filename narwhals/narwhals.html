@@ -9,10 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
     <link href="../comp.css" rel="stylesheet" link> 
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <!-- Nav tabs -->
+      <nav class="navbar navbar-text">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../Logos/BONJ.jpeg" width="50px" height="50px" style="border-radius: 80%;">
+            <a href="../elephants/elephants.html"><button type="button" class="btn btn-secondary">Elephants
+            </button></a>
+            <a href="../data-collection/data-collection.html"><button type="button" class="btn btn-secondary">Data Collection
+            </button></a>
+            <a href="../narwhals/narwhals.html"><button type="button" class="btn btn-secondary">Narwhals
+            </button></a>
+        </a>
+    </nav>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+      </div>
+      
+      <script>
+        $('#navId a').click(e => {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      </script>
+    </div>
     <div id = "title">
         <h1>Impacts of computer science: Saving the Narhwals</h1>
     </div>
