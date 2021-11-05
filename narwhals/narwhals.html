@@ -9,21 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="style.css" rel="stylesheet" link> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="../comp.css" rel="stylesheet" link> 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-          <img src="Logos/BONJ.jpeg" width="50px" height="50px" style="border-radius: 80%;">
-          <a href="/index.html"><button type="button" class="btn btn-secondary">Home
-          </button></a>
-          <a href="/elephants/elephants.html"><button type="button" class="btn btn-secondary">Elephants
-          </button></a>
-          <a href="/narwhals/narhals.html"><button type="button" class="btn btn-secondary">Narwhals
-          </button></a>
-      </a>
+    <div class="container-fluid">
+      <!-- Nav tabs -->
+      <nav class="navbar navbar-text">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../Logos/BONJ.jpeg" width="50px" height="50px" style="border-radius: 80%;">
+            <a href="../elephants/elephants.html"><button type="button" class="btn btn-secondary">Elephants
+            </button></a>
+            <a href="../data-collection/data-collection.html"><button type="button" class="btn btn-secondary">Data Collection
+            </button></a>
+            <a href="../narwhals/narwhals.html"><button type="button" class="btn btn-secondary">Narwhals
+            </button></a>
+        </a>
     </nav>
+      
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+      </div>
+      
+      <script>
+        $('#navId a').click(e => {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+      </script>
+    </div>
     <div id = "title">
         <h1>Impacts of computer science: Saving the Narhwals</h1>
     </div>
@@ -44,8 +64,13 @@
     </div>
     
     <img src="narwhal-tusk-shutterstock.jpg" alt="Narhwal" style="height: 300px;" style="width:700px;" style= "text-align:center;" class="center">
-
-
+    
+    <div id = "subtext">
+      <c>Image of four Narwhals swimming. Credit: 
+        <a href="https://www.shutterstock.com/ru/search/3d?missing_image_id=287061437">Shutterstock </a>
+      </c>
+    </div>
+    
 <button type="button" class="collapsible">Problems faced by the Narhwals</button>
 <div class="content">
   <p>Like many species, global warming and its subsequent impacts are having a serious detromental effect to the life of the Narwhal. 
@@ -123,11 +148,22 @@ for (i = 0; i < coll.length; i++) {
 </script>
 
 <img src="narwhal tagging.jpg" alt="Narhwal tagging" style="height: 300px;" style="width:700px;" style= "text-align:center;" class="center">
+<div id = "subtext">
+  <c2>Researchers are tagging a narwhal in East Greeenland. Credit: Carsten Egevang</c2>
+</div>
+
 
 <div id = "subtext">
   <h1>Just one way in which computer science is having a positive impact on society. Click 
     <a href="https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/ES13-00137.1">here </a>
     for more on the foraging habits of narwhals.</h1>
+</div>
+
+<div id = "subtext">
+  <h1>This page was written by Olivia Stubbs:
+    <a href="https://www.linkedin.com/mwlite/in/olivia-stubbs-63b15821a">LinkedIn</a>
+    <a href="https://github.com/osps05122002">GitHub</a>
+  </h1>
 </div>
 
 <div id = "subtext">
