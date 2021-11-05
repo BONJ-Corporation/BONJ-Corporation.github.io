@@ -4,7 +4,7 @@
 - Algorithm developed by Dr Olga Isupova, a computer scientist at the University of Bath.
 - Using satellite imagery from [Maxar satellites](https://www.cnet.com/news/scientists-count-elephants-from-space-with-satellites-and-computer-smarts/#ftag=COS-05-10aaa0j) Worldview 3 and 4 
 - "For the first time, scientists have successfully used satellite cameras coupled with deep learning to count animals in complex geographical landscapes," said the University of Bath
-- Deep learning was done using the [Tensor Flow API](https://www.tensorflow.org/) and detection has accuracy comparable to human abilities.
+- Deep learning was done using the [Tensor Flow API](v) and detection has accuracy comparable to human abilities.
 - This offers an effective alternative to counting elephants from aircraft which is expensive and can only cover a limited amount of ground.
 - As it sweeps across the land, a satellite can collect over 5,000 km² of imagery in a matter of minutes, eliminating the risk of double counting and allowing repeat surveys over short intervals.
  - The data was then processed by the deep learning model which could do it in a matter of hours rather than months.
@@ -16,7 +16,7 @@
  - There are an estimated 415,000 African elephants left in the wild and they are listed as "vulnerable" on the [IUCN Red List of Threatened Species](https://www.iucnredlist.org/species/12392/3339343).
  - This means its vital to keep track of their numbers and locations.
  - The teams are currently working on software to track the smaller animals but elephants are an excellent start.
-###### Paper: [Using very-high-resolution satellite imagery and deep learning to detect and count African elephants in heterogeneous landscapes](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.195)
+###### Paper: [c](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.195)
 
 
 ### [How can we prevent poaching?](https://www.seas.harvard.edu/news/2020/02/coding-uncertainty-increases-security)
